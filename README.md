@@ -1,6 +1,6 @@
 # docker
 `sudo docker ps` - список запущенных контейнеров 
-sudo docker images 
+sudo docker images  
 `sudo docker run -p 8888:8888 jupyter/scipy-notebook:6b49f3337709` - звпустить контейнер с jupyter   
 `sudo docker exec -it fb3a93d7c30c bash `- заходим в FS контейнера   
 `sudo docker stop fb3a93d7c30c` - остановить контейнер   
